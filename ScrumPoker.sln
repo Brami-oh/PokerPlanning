@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35103.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrumPoker.Api", "ScrumPoker.Api\ScrumPoker.Api.csproj", "{0349D89C-FE92-4F99-9D3F-655D5EE34F31}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "scrumpoker.client", "ScrumPoker.Client\scrumpoker.client.esproj", "{E542CCD7-8928-4183-9CC6-EF625C728EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{F08A0416-5A77-4902-9D7C-EC16171128FF}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0349D89C-FE92-4F99-9D3F-655D5EE34F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349D89C-FE92-4F99-9D3F-655D5EE34F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349D89C-FE92-4F99-9D3F-655D5EE34F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349D89C-FE92-4F99-9D3F-655D5EE34F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E542CCD7-8928-4183-9CC6-EF625C728EA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDF2FE67-1C77-4357-8645-1BAA388DA0A4}
+	EndGlobalSection
+EndGlobal

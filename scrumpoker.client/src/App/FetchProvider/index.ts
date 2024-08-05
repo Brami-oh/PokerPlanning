@@ -1,0 +1,1 @@
+export { FetchProvider as default } from './FetchProvider';
